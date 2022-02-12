@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+.app-contianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 3%;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #2e3e4e;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 5px;
+}
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3%;
+  width: 85%;
+  background-size: cover;
+}
+.search-input {
+  border: none;
+  line-height: 2;
+  outline: none;
+  width: 100%;
+}
+.heading {
+  height: 22px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #66a3ff;
+}
+
+.pagination-container {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .pagination-container {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.buttons-container {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-left: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .buttons-container {
+    margin-left: 5%;
+  }
+}
+.disabled-button {
+  border: 1px solid #66a3ff;
+  background-color: darkgrey;
+  color: #fff;
+  border-radius: 50%;
+  cursor: not-allowed;
+}
+.delete-selected-button {
+  background-color: #66a3ff;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

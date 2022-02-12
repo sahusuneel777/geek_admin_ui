@@ -1,0 +1,57 @@
+.person-details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px;
+}
+
+.detail-of-person {
+  padding: 0px;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  .detail-of-person {
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .email {
+    font-size: 8px;
+    margin-right: 5px;
+  }
+  .role {
+    margin-left: auto;
+  }
+}
+
+.active-check-box {
+  background-color: #a9b0af;
+}
+.check-box {
+  background-color: #fff;
+}
+.input-field {
+  width: auto;
+}
+.button-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.save-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.save-icon:hover {
+  font-size: 14px;
+  color: blue;
+}
+.button-icon:hover {
+  font-size: 14px;
+  color: red;
+}
